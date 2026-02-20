@@ -17,7 +17,7 @@ This project is divided into two main parts:
 
 ---
 
-## 1. Backend: Java Spring Boot (`email-writer-sb`)
+## 🧩 1. Backend: Java Spring Boot (`AI-Email-Assistant-Backend`)
 
 ### Why Java Spring Boot?
 Spring Boot is an industry-standard, robust framework. We used it here because:
@@ -25,8 +25,7 @@ Spring Boot is an industry-standard, robust framework. We used it here because:
 * It handles Cross-Origin Resource Sharing (CORS) easily (crucial for Chrome Extensions).
 * It provides `WebClient` for efficient, non-blocking calls to external AI APIs.
 
-### Backend File Structure & What They Do:
-* `src/main/java/com/email/writer/`
+### 📂 Backend File Structure & What They Do:
   * `EmailWriterSbApplication.java`: The main entry point that starts the Spring Boot server.
   * `EmailGeneratorController.java`: The API gateway. It receives the HTTP `POST` requests from our Chrome extension.
   * `EmailGeneratorService.java`: The brain of the backend. It contains the logic to format the prompt and communicate with the external AI API.
@@ -34,7 +33,7 @@ Spring Boot is an industry-standard, robust framework. We used it here because:
   * `WebClientConfig.java`: Configuration file to set up the HTTP client used to call the AI model.
 * `pom.xml`: Manages all the project dependencies (like Spring Web, WebFlux, etc.).
 
-###  How to Test the Backend using Postman
+### 🛠️ How to Test the Backend using Postman
 Before connecting the extension, you can test if the backend is working correctly:
 1. Start your Spring Boot application (it usually runs on `http://localhost:8081`).
 2. Open Postman and create a new **POST** request.
