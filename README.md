@@ -66,8 +66,9 @@ Before connecting the extension, you can test if the backend is working correctl
 ---
 
 ### Here is snapshot of UI
-![Project Demo](DEMO/extension.png)
-![Project Demo](DEMO/MailUi.png)
+![Project Demo](https://github.com/AgrimChauhan09/AI-Email-Assistant/blob/main/Demo/extension.png?raw=true)
+![Project Demo](https://github.com/AgrimChauhan09/AI-Email-Assistant/blob/main/Demo/MailUi.png?raw=true)
+
 
 ## 🤝 Feedback & Support
 I built this project to streamline email communications using AI and to explore the integration of browser extensions with robust Java backends.
