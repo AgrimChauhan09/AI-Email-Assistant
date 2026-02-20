@@ -66,8 +66,8 @@ Before connecting the extension, you can test if the backend is working correctl
 ---
 
 ### Here is snapshot of UI
-![Demo](screenshots/extension.png)
-![Demo](screenshots/MailUi.png)
+![Project Demo](./DEMO/extension.png)
+![Project Demo](./DEMO/MailUi.png)
 
 ## 🤝 Feedback & Support
 I built this project to streamline email communications using AI and to explore the integration of browser extensions with robust Java backends.
