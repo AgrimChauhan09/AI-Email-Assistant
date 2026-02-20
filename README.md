@@ -26,6 +26,7 @@ Spring Boot is an industry-standard, robust framework. We used it here because:
 * It provides `WebClient` for efficient, non-blocking calls to external AI APIs.
 
 ### 📂 Backend File Structure & What They Do:
+* `src/main/java/com/email/writer/`
   * `EmailWriterSbApplication.java`: The main entry point that starts the Spring Boot server.
   * `EmailGeneratorController.java`: The API gateway. It receives the HTTP `POST` requests from our Chrome extension.
   * `EmailGeneratorService.java`: The brain of the backend. It contains the logic to format the prompt and communicate with the external AI API.
